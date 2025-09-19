@@ -48,7 +48,8 @@ def get_michael_contact(request: Request):
         "company": "QUANBY Solutions, Inc.",
         "title": "Chief Technology Officer",
         "address": "1862-B Dominga Street Pasay City",
-        "base_url": "https://recognitionbe.quanbyit.com"
+        "base_url": "https://recognitionbe.quanbyit.com",
+        "static_base_url": "/nfc/michael"
     }
     return templates.TemplateResponse("contact.html", {"request": request, "contact": contact_data})
 
@@ -61,7 +62,8 @@ def get_kenneth_contact(request: Request):
         "company": "QUANBY Solutions, Inc.",
         "title": "Software Developer",
         "address": "1862-B Dominga Street Pasay City",
-        "base_url": "https://recognitionbe.quanbyit.com"
+        "base_url": "https://recognitionbe.quanbyit.com",
+        "static_base_url": "/nfc/kenneth"
     }
     return templates.TemplateResponse("contact.html", {"request": request, "contact": contact_data})
 
