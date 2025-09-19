@@ -67,7 +67,7 @@ class ContactService:
             address="1862-B Dominga Street Pasay City",
             title="Lead Software Engineer",
             website="https://quanbyit.com",
-            profile_image_path="static/profile.png"
+            profile_image_path="static/kenneth.png"
         )
     
     def get_contact_info(self) -> ContactInfo:
