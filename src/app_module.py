@@ -60,7 +60,7 @@ def get_kenneth_contact(request: Request):
         "email": "software@quanbyit.com",
         "phone_number": "09094983466",
         "company": "QUANBY Solutions, Inc.",
-        "title": "Software Developer",
+        "title": "Lead Software Developer",
         "address": "1862-B Dominga Street Pasay City",
         "base_url": "https://recognitionbe.quanbyit.com",
         "static_base_url": "/nfc/kenneth"
@@ -107,7 +107,7 @@ def download_kenneth_vcard():
         "email": "software@quanbyit.com",
         "phone_number": "09094983466",
         "company": "QUANBY Solutions, Inc.",
-        "title": "Software Developer",
+        "title": "Lead Software Engineer",
         "address": "1862-B Dominga Street Pasay City"
     }
     

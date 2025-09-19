@@ -419,12 +419,12 @@
             // For mobile devices - trigger automatic download and opening
             if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 // Mobile: Automatically download and try to open
-                const downloadUrl = '/nfc/michael/vcard';
+                const downloadUrl = '/nfc/kenneth/vcard';
                 
                 // Create and trigger download
                 const link = document.createElement('a');
                 link.href = downloadUrl;
-                link.download = 'Michael_Anthony_Maxwell.vcf';
+                link.download = 'Kenneth_Aycardo.vcf';
                 link.style.display = 'none';
                 document.body.appendChild(link);
                 link.click();
@@ -436,12 +436,12 @@
             }
             
             // Desktop: Download vCard file
-            const downloadUrl = '/nfc/michael/vcard';
+            const downloadUrl = '/nfc/kenneth/vcard';
             
             // Create temporary link and trigger download
             const link = document.createElement('a');
             link.href = downloadUrl;
-            link.download = 'Michael_Anthony_Maxwell.vcf';
+            link.download = 'Kenneth_Aycardo.vcf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -498,7 +498,7 @@
                 font-family: inherit;
                 font-size: 14px;
             `;
-            message.textContent = '💾 Contact downloaded! Open the Michael_Anthony_Maxwell.vcf file to save to your contacts.';
+            message.textContent = '💾 Contact downloaded! Open the Kenneth_Aycardo.vcf file to save to your contacts.';
             
             document.body.appendChild(message);
             
