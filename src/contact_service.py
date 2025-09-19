@@ -59,13 +59,13 @@ class ContactService:
     def __init__(self):
         # Default contact information - you can modify this
         self.contact = ContactInfo(
-            first_name="Michael",
-            last_name="Maxwell",
-            phone_number="+6396 1580 1028",
-            email="michael.quanbyit.com",
+            first_name="Kenneth",
+            last_name="Aycardo",
+            phone_number="+6390 9498 3466",
+            email="software@quanbyit.com",
             company="QUANBY Solutions, Inc.",
             address="1862-B Dominga Street Pasay City",
-            title="Chief Technology Officer",
+            title="Lead Software Engineer",
             website="https://quanbyit.com",
             profile_image_path="static/profile.png"
         )
